@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="src/jquery.min.js"></script>
+    <label style="text-transform: lowercase">WEIYAJIN</label>
+
+</head>
+<body>
+<div id="myDiv">
+
+</div>
+<script>
+    /**
+     *箭头函数用法
+     *函数体内的this对象，就是定义时所在的对象，而不是使用时所在的对象
+     */
+//    var fn=(x,y)=>{return x+y;}
+//    console.log(fn(1,2));
+
+
+    /**
+     * 字符串模板引擎用法
+     */
+//    $("#myDiv").append(`
+//    There are <b>123</b> items
+//    in your basket, <em>789</em>
+//    are on sale!`);
+
+    /**
+     * default用法，给函数的参数赋值默认值
+     */
+//    function animal(type = 'cat'){
+//        console.log(type)
+//    }
+//    animal()
+
+    /**
+     * rest用于获取函数的剩余参数
+     */
+//    function animals(a,...types){
+//        console.log(types)
+//    }
+//    animals('cat', 'dog', 'fish') //[ "dog", "fish"]
+
+
+    /**
+     * 解构赋值,key是匹配模式，value是真正的赋值
+     * 数组的解构赋值，对象的解构赋值，字符串的解构赋值，数值和布尔值的解构赋值，函数参数的解构赋值
+     */
+//    let [a,b,c,d]=[1,2,3];
+//    console.log(d);
+
+    let {p1,p2}={p1:{name:'weiyajin'},p2:{age:24}};
+    console.log(p1);
+    console.log(p2);
+
+    let [h,j,k]='wei';
+    console.log(h);
+
+    function example(x=0,y=1){
+        return [x,y];
+    }
+
+    let [n,m]=example(7,8);
+    console.log(n);
+    console.log(m);
+</script>
+</body>
+</html>
