@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Generated files" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/script/destruction-compiled.js" />
+        <item url="file://$PROJECT_DIR$/script/function-compiled.js" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/main-compiled.js" />
+      <root url="file://$PROJECT_DIR$/main-compiled.js" />
+      <root url="file://$PROJECT_DIR$/script/destruction-compiled.js" />
+      <root url="file://$PROJECT_DIR$/script/function-compiled.js" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

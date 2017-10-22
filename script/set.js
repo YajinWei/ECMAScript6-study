@@ -37,4 +37,14 @@ let difference = new Set([...a].filter(x => !b.has(x)));
 // Set {1}
 
 
+/**
+ * WeakSet
+ * 该数据结构的特点是也是不重复值的集合，它的成员只能是对象。
+ */
+const obj=[{name:'wei'},{age:24}];
+const ws = new WeakSet(obj);
+// WeakSet {{name:'wei'},{age:24}}
 
+const b = [3, 4];
+const ws1 = new WeakSet(b);
+// Uncaught TypeError: Invalid value used in weak set(…)
