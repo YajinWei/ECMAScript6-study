@@ -23,7 +23,7 @@ const myMap = new Map()
 new Map([
     [true, 7],
     [{foo: 3}, ['abc']]
-])
+]);
 
 // Map转换为对象
 function strMapToObj(strMap) {
@@ -37,5 +37,5 @@ function strMapToObj(strMap) {
 const myMap = new Map()
     .set('yes', true)
     .set('no', false);
-strMapToObj(myMap)
+strMapToObj(myMap);
 // { yes: true, no: false }
